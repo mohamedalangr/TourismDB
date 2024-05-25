@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            width: 678px;
+        }
+        .auto-style4 {
+            height: 56px;
+            width: 678px;
+        }
+        .auto-style5 {
+            width: 678px;
+            height: 23px;
+        }
+        .auto-style6 {
+            width: 678px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style6" style="text-align: center">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Overline="False" Font-Size="X-Large" Font-Underline="True" ForeColor="#0033CC" Text="Welcome to (A1.1) Tourism"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style4">
+                    <table class="auto-style1">
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/AdminHome.aspx">Home</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/TouristsListByNationality.aspx">TouristsListByNationality</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/HotelsListByRating.aspx">HotelsListByRating</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/BookingListDuration.aspx">BookingListDuration</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="auto-style1">
+                        <tr>
+                            <td></td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/MaxBookingCost.aspx">MaxBookingCost</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/MinimumHotelRating.aspx">MinimumHotelRating</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/StaffListYearsOfExps.aspx">StaffListYearsOfExps</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/TouristsListWithSpecialRequests.aspx">TouristsListWithSpecialRequests</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/CommentsOnHighRatedHotels.aspx">CommentsOnHighRatedHotels</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/StaffListFromCertainHotel.aspx">StaffListFromCertainHotel</asp:HyperLink>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/Signin.aspx">SignOut</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/TotalCostsOfTourist.aspx">TotalCostsOfTourist</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/PaymentMethodsForTourists.aspx">PaymentMethodsForTourists</asp:HyperLink>
+                            </td>
+                            <td>
+                                <asp:HyperLink ID="HyperLink14" runat="server" NavigateUrl="~/TouristDuration.aspx">TouristDuration</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style2"><strong>CopyRights Reserved A1.1</strong></td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
